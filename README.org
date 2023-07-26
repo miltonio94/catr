@@ -1,0 +1,11 @@
+* Rusty Cat
+A less featured filled cat clone written in rust.
+Implemented as an excercise from the book "Command line rust"
+
+** Usage
+ ~catr FILE_NAME~ to print out file
+*** Flags
+I have implemented the ~-n~ and ~-b~ flags for this program, they work much like they do for cat.
+The ~-n~ flag will number lines in the file
+The ~-b~ flag will number all nonblank lines in a file
+If in doubt you can always run ~-h~ or ~--help~ the built in instructions
